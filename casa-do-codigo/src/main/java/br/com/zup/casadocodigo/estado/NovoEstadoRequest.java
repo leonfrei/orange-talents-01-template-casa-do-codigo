@@ -20,6 +20,14 @@ public class NovoEstadoRequest {
         this.idPais = idPais;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public Long getIdPais() {
+        return idPais;
+    }
+
     public Estado paraEstado(PaisRepository paisRepository){
         Pais pais = paisRepository.getOne(idPais);
         return new Estado(nome, pais);

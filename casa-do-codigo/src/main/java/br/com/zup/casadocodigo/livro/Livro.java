@@ -2,7 +2,6 @@ package br.com.zup.casadocodigo.livro;
 
 import br.com.zup.casadocodigo.autores.Autor;
 import br.com.zup.casadocodigo.categoria.Categoria;
-import br.com.zup.casadocodigo.compartilhado.UniqueValue;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
